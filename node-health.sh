@@ -7,10 +7,11 @@
 # VErsion: V1
 ##########
 
-set -x # debug mode
+set -x # debug mode#set -e # exit the script when there is an error
+set -e # exit the script when there is an error
 
+kkkkkkkk
 df -h
-
 
 
 free -g
@@ -19,3 +20,4 @@ free -g
 
 nproc
 
+ps -ef
